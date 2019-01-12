@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-     myUser.serviceId: maplestory-plat
-     myUser.path: /plat/**  #以/user/开头的所有路径都转发给user-provider
+     myUser.serviceId: maplestory-plat-test
+     myUser.path: /maplestory/**  #以/user/开头的所有路径都转发给user-provider
   ignored-services:  "*" #可以一个一个配置,如:user-provider,但是很麻烦,用*来通配
   prefix: "/services" #加上统一前缀

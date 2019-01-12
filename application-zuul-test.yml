@@ -2,7 +2,7 @@ server:
   port: 9527
 spring:
   application:
-    name: maplestory-zuul-gateway-dev
+    name: maplestory-zuul-gateway-test
 eureka:
   client:
     service-url:
